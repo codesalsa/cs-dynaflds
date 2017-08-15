@@ -1,0 +1,32 @@
+.field-wrap {
+    display: table;
+    margin: 10px 0;
+    width: 100%;
+}
+.remove_field  {
+    position:relative;
+    margin:0 0 0 10px;
+}    
+.remove_field:before {
+    background: red;
+    color: #fff;
+    content: "\f1f8";
+    font-family: FontAwesome;
+    left: 0;
+    padding: 4px 7px;
+    position: absolute;
+    top: 0;
+ }
+.field-wrap input{
+    min-height: 26px;
+    padding: 4px 15px;
+}
+.add_field_button{
+	background:#02a41d;
+	clear: both;
+    color: #fff;
+    cursor: pointer;
+    display: table;
+    margin: 0 0 10px;
+    padding: 6px 15px;
+}

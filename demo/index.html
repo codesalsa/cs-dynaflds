@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dynamic Input Field</title>
+
+	<link rel="stylesheet" type="text/css" href="vendors/font-awesome/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/css.cs-dynaflds.css">
+</head>
+<body>
+	<form>
+		<div id="input_fields_wrap"></div>
+	</form>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="../src/jquery.cs-dynaflds.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready( function() {
+            $('#input_fields_wrap').cs_dynaflds({
+                'max_fields' : 14,
+                'field_class' : 'txt-fld',
+                'field_name'  : 'myTxtFld',
+                'placeholder'  : 'Enter Field Value',
+                'field_type'  :  'tel', // values can be text, email, tel
+            });
+        });
+	</script>
+</body>
+</html>

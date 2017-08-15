@@ -1,0 +1,46 @@
+{
+  "name": "cs-dynaflds",
+  "title": "cs-dynaflds",
+  "description": "A jQuery plugin to integrate dynamic input fields into any html form.",
+  "version": "1.0",
+  "homepage": "http://codesalsa.net/cs-dynaflds",
+  "author": {
+    "name": "Code Salsa",
+    "email": "admin@codesalsa.net",
+    "url": "https://codesalsa.net",
+    "twitter": "@codesalsa",
+    "github": "https://github.com/codesalsa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codesalsa/cs-dynaflds"
+  },
+  "bugs": {
+    "url": "https://github.com/codesalsa/cs-dynaflds/issues"
+  },
+  "license": {
+    "name": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  },
+  "keywords": [
+    "jquery",
+    "plugin",
+    "dynamic fields",
+	"input fields",
+    "html dynamic fields",
+    "jquery dynamic input fields",
+	"dynamic form fields"
+  ],
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-header": "^1.2.2",
+    "gulp-jshint": "^1.9.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0",
+    "jshint-stylish": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=0.10.3"
+  }
+}
